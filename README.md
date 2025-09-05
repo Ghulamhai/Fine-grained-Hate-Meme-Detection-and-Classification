@@ -41,7 +41,7 @@ graph TD
 | Category      | Technologies                                                                          |
 | :------------ | :------------------------------------------------------------------------------------ |
 | **ML / Python** | `PyTorch`, `Transformers (Hugging Face)`, `OpenCV`, `Scikit-learn`                      |
-| **Backend** | `Django`, `Django REST Framework`, `PostgreSQL`, `Gunicorn`                             |
+| **Backend** | `Django`, `Django REST Framework`, `PostgreSQL`                            |
 | **Frontend** | `React`, `JavaScript (ES6+)`, `CSS3`                                           |
 | **DevOps** | `Docker`, `Git`, `GitHub`                                             |
 
@@ -51,7 +51,7 @@ graph TD
 
 ### Prerequisites
 -   [Git](https://git-scm.com/)
--   [Docker](https://www.docker.com/products/docker-desktop/) & [Docker Compose](https://docs.docker.com/compose/install/)
+-   [Docker](https://www.docker.com/products/docker-desktop/)
 
 ### Installation Steps
 
