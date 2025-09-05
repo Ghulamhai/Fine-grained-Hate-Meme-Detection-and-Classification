@@ -5,7 +5,7 @@
 
 **[Live Demo Link Here]** ---
 
-## 🚀 Project Overview
+##  Project Overview
 
 The proliferation of hateful memes on social media presents a significant challenge for content moderation. These memes are multimodal, combining images and text to convey messages that are often missed by systems analyzing only one modality. This project introduces an end-to-end solution that leverages a deep learning model to understand both visual and linguistic cues, providing a more accurate and nuanced classification of hateful content.
 
@@ -26,7 +26,7 @@ graph TD
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 -   **High-Accuracy Multimodal Model:** Fuses features from a Vision Transformer (ViT) and BERT to capture complex interactions between image and text.
 -   **Fine-Grained Classification:** Classifies memes into specific categories of hate (e.g., racism, sexism, religious discrimination) rather than a simple binary output.
@@ -36,18 +36,18 @@ graph TD
 
 ---
 
-## 🛠️ Technology Stack
+## 🛠 Technology Stack
 
 | Category      | Technologies                                                                          |
 | :------------ | :------------------------------------------------------------------------------------ |
 | **ML / Python** | `PyTorch`, `Transformers (Hugging Face)`, `OpenCV`, `Scikit-learn`                      |
 | **Backend** | `Django`, `Django REST Framework`, `PostgreSQL`, `Gunicorn`                             |
-| **Frontend** | `React`, `JavaScript (ES6+)`, `Axios`, `CSS3`                                           |
-| **DevOps** | `Docker`, `Docker Compose`, `Git`, `GitHub`                                             |
+| **Frontend** | `React`, `JavaScript (ES6+)`, `CSS3`                                           |
+| **DevOps** | `Docker`, `Git`, `GitHub`                                             |
 
 ---
 
-## ⚙️ Local Setup and Installation
+## ⚙ Local Setup and Installation
 
 ### Prerequisites
 -   [Git](https://git-scm.com/)
@@ -86,7 +86,7 @@ docker-compose down
 
 ---
 
-## 🧠 API Endpoints
+## API Endpoints
 
 The primary API endpoint for classification is:
 
@@ -108,7 +108,7 @@ The primary API endpoint for classification is:
 
 ---
 
-## 🔬 ML Model Deep Dive
+## ML Model Deep Dive
 
 -   **Architecture:** A fusion model combining the output embeddings from a pre-trained `ViT-B/16` (for image features) and `BERT-base-uncased` (for text features extracted via OCR). The concatenated features are passed through a Multi-Layer Perceptron (MLP) for final classification.
 -   **Dataset:** The model was fine-tuned on the [Hateful Memes Challenge dataset by Facebook AI](https://ai.facebook.com/hateful_memes/) and augmented with `[mention any other data source you used]`.
@@ -127,7 +127,7 @@ This project is distributed under the **MIT License**. See the `LICENSE` file fo
 
 ## 🙏 Acknowledgments
 
--   A heartfelt thank you to my thesis supervisor, **[Professor's Name]**, for their invaluable guidance.
+-   A heartfelt thank you to my thesis supervisor, **[Dr. Gyanendro Loitongbam]**, for their invaluable guidance.
 -   This project utilizes powerful open-source libraries like **PyTorch**, **Transformers**, **Django**, and **React**.
 -   Dataset provided by **[Facebook AI Research]**.
 
@@ -135,4 +135,4 @@ This project is distributed under the **MIT License**. See the `LICENSE` file fo
 
 ## ✉️ Contact
 
-[Your Name] - [Your Email Address] - [Link to your LinkedIn Profile]
+[Ghulam Haider] - [2024csm1008@iitrpr.ac.in] - [https://www.linkedin.com/in/ghulam-haider-b4185a193/]
